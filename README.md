@@ -6,6 +6,7 @@ a windowed macos application bundle
 
 ## compilation
 ```bash
-cd MultiTouchWindow
+git clone https://github.com/mgood7123/cmake-application-macos
+cd cmake-application-macos/MultiTouchWindow
 make rebuild_test_debug_ninja
 ```
