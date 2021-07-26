@@ -12,6 +12,8 @@
 		5BFC055B26AE5C54006DCF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BFC055A26AE5C54006DCF10 /* Assets.xcassets */; };
 		5BFC055E26AE5C54006DCF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BFC055C26AE5C54006DCF10 /* Main.storyboard */; };
 		5BFC056126AE5C54006DCF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC056026AE5C54006DCF10 /* main.m */; };
+		5BFC056B26AE5DF7006DCF10 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC056926AE5DF6006DCF10 /* Makefile */; };
+		5BFC056C26AE5DF7006DCF10 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5BFC056A26AE5DF7006DCF10 /* CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5BFC055F26AE5C54006DCF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BFC056026AE5C54006DCF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BFC056226AE5C54006DCF10 /* MultiTouchWindow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiTouchWindow.entitlements; sourceTree = "<group>"; };
+		5BFC056926AE5DF6006DCF10 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5BFC056A26AE5DF7006DCF10 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5BFC055426AE5C4E006DCF10 /* AppDelegate.h */,
 				5BFC055526AE5C4E006DCF10 /* AppDelegate.m */,
 				5BFC055726AE5C4E006DCF10 /* ViewController.h */,
+				5BFC056A26AE5DF7006DCF10 /* CMakeLists.txt */,
+				5BFC056926AE5DF6006DCF10 /* Makefile */,
 				5BFC055826AE5C4E006DCF10 /* ViewController.m */,
 				5BFC055A26AE5C54006DCF10 /* Assets.xcassets */,
 				5BFC055C26AE5C54006DCF10 /* Main.storyboard */,
@@ -128,6 +134,7 @@
 			files = (
 				5BFC055B26AE5C54006DCF10 /* Assets.xcassets in Resources */,
 				5BFC055E26AE5C54006DCF10 /* Main.storyboard in Resources */,
+				5BFC056C26AE5DF7006DCF10 /* CMakeLists.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				5BFC055926AE5C4E006DCF10 /* ViewController.m in Sources */,
 				5BFC056126AE5C54006DCF10 /* main.m in Sources */,
+				5BFC056B26AE5DF7006DCF10 /* Makefile in Sources */,
 				5BFC055626AE5C4E006DCF10 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
